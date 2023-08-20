@@ -6,7 +6,6 @@ class PatientData(models.Model):
     GENDER_CHOICES = [
         ('M', 'Male'),
         ('F', 'Female'),
-        ('O', 'Other'),
     ]
 
     CANCER_TYPE_CHOICES = [

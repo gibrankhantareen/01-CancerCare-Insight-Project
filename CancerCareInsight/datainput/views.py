@@ -18,7 +18,6 @@ def data_input(request):
     context = {
         'patient_data_form': patient_data_form,
     }
-    print(patient_data_form)
 
     return render(request, 'data_input.html', context)
 

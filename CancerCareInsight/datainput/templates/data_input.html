@@ -1,8 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>Data Input</h2>
-<form method="post" action="{% url 'data_input' %}">
+<h2>Please Answer These Questions:</h2>
+<br>
+<form method="post" action="{% url 'data_input' %}" id="data-input-form">
     {% csrf_token %}
     {{ patient_data_form.as_p }}
     <button type="submit">Submit</button>
