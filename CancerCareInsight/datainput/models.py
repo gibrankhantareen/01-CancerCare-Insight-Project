@@ -1,6 +1,8 @@
 from django.db import models
 
 class PatientData(models.Model):
+    class Meta:
+        unique_together = ['name', 'mobile', 'gender', 'age']
 
     # Patient details
     GENDER_CHOICES = [
@@ -23,8 +25,8 @@ class PatientData(models.Model):
     name = models.CharField(max_length=100)
     age = models.PositiveIntegerField()
     gender = models.CharField(max_length=1, choices=GENDER_CHOICES)
+    mobile = models.CharField(max_length=15, default="0000000000")
     cancer_type = models.CharField(max_length=50, choices=CANCER_TYPE_CHOICES)
-    stage = models.PositiveIntegerField()
     diagnosis_date = models.DateField()
 
     # Treatment details
@@ -35,6 +37,15 @@ class PatientData(models.Model):
         # Add other types as needed
     ]
 
+    # Treatment details
+    CANCER_STAGES = [
+        ('Stage1', 'Stage 1'),
+        ('Stage2', 'Stage 2'),
+        ('Stage3', 'Stage 3'),
+        ('Stage4', 'Stage 4'),
+    ]
+
+    stage = models.CharField(max_length=50, choices=CANCER_STAGES)
     treatment_type = models.CharField(max_length=50, choices=TREATMENT_TYPE_CHOICES)
     start_date = models.DateField()
     end_date = models.DateField()

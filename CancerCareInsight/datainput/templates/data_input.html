@@ -8,4 +8,19 @@
     {{ patient_data_form.as_p }}
     <button type="submit">Submit</button>
 </form>
+
+{% if form_submitted %}
+<script>
+    alert("Details are submitted. You can now can check it via GET REPORT");
+    window.location.href = "{% url 'home' %}";  // Redirect to the home page after showing the alert
+</script>
+{% endif %}
+
+{% if duplicate_entry %}
+<script>
+    alert("This entry appears to be a duplicate. Please check the details and try again.");
+</script>
+{% endif %}
+
+
 {% endblock %}
