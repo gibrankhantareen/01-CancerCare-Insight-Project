@@ -1,23 +1,12 @@
 from django import forms
-from .models import Patient, Treatment, Outcome, Cost
+from .models import PatientData
 
-class PatientForm(forms.ModelForm):
+class PatientDataForm(forms.ModelForm):
     class Meta:
-        model = Patient
-        fields = '__all__'
-
-class TreatmentForm(forms.ModelForm):
-    class Meta:
-        model = Treatment
-        fields = '__all__'
-
-class OutcomeForm(forms.ModelForm):
-    class Meta:
-        model = Outcome
-        fields = '__all__'
-
-class CostForm(forms.ModelForm):
-    class Meta:
-        model = Cost
-        fields = '__all__'
-
+        model = PatientData
+        fields = [
+            'name', 'age', 'gender', 'cancer_type', 'stage', 'diagnosis_date',
+            'treatment_type', 'start_date', 'end_date', 'medication_names',
+            'eradicated', 'recurrence', 'side_effects', 'quality_of_life_post_treatment',
+            'direct_costs', 'indirect_costs'
+        ]
