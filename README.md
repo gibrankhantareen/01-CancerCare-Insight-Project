@@ -1,6 +1,7 @@
 # My Project - CancerCare Insight
 ## Introduction
 CancerCare-Insight is a comprehensive platform designed to assist healthcare professionals and patients in the journey of cancer diagnosis, treatment, and prognosis. By leveraging advanced machine learning models and data analysis techniques, the platform provides insightful reports to guide decision-making and improve patient outcomes.
+Click here to read my [Research Paper](https://www.researchgate.net/publication/373236588_CancerCare_Insight_A_Comprehensive_Analysis_Tool_for_Treatment_Outcomes_and_Cost_Effectiveness) for this Project
 
 ## Table of Contents
 - [Aim of the Project](#aim-of-the-project)
