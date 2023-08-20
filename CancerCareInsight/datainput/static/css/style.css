@@ -81,3 +81,10 @@ form button {
 form button:hover {
     background-color: #555;
 }
+
+.errorlist {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}

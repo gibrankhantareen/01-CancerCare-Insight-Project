@@ -1,6 +1,7 @@
 from django.db import models
 
 class PatientData(models.Model):
+
     # Patient details
     GENDER_CHOICES = [
         ('M', 'Male'),
@@ -12,6 +13,12 @@ class PatientData(models.Model):
         ('Breast', 'Breast Cancer'),
         ('Lung', 'Lung Cancer'),
         # Add other types as needed
+    ]
+
+    ERADICATED_CHOICES = [
+    ('YES', 'YES'),
+    ('NO', 'NO'),
+    ('MAYBE', 'MAYBE'),
     ]
 
     name = models.CharField(max_length=100)
@@ -35,8 +42,8 @@ class PatientData(models.Model):
     medication_names = models.TextField()  # List down all medications
 
     # Outcome details
-    eradicated = models.BooleanField()
-    recurrence = models.BooleanField()
+    eradicated = models.CharField(max_length=5, choices=ERADICATED_CHOICES)
+    recurrence = models.CharField(max_length=5, choices=ERADICATED_CHOICES)
     side_effects = models.TextField()
     quality_of_life_post_treatment = models.PositiveIntegerField()  # Scale of 1-10
 

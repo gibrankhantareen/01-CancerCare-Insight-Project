@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .models import PatientData
 from .forms import PatientDataForm
 
+
 def data_input(request):
     if request.method == 'POST':
         patient_data_form = PatientDataForm(request.POST)
