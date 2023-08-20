@@ -1,4 +1,4 @@
-# CancerCare Insight
+# My Project - CancerCare Insight
 ## Introduction
 CancerCare-Insight is a comprehensive platform designed to assist healthcare professionals and patients in the journey of cancer diagnosis, treatment, and prognosis. By leveraging advanced machine learning models and data analysis techniques, the platform provides insightful reports to guide decision-making and improve patient outcomes.
 
@@ -34,7 +34,7 @@ The primary aim of CancerCare Insight is to:
 
 ## Installation & Setup
 1. Clone the repository:
-git clone [repository-link]
+git clone git@github.com:gibrankhantareen/01-CancerCare-Insight-Project.git
 
 2. Navigate to the project directory and install the required packages:
 cd CancerCareInsight
