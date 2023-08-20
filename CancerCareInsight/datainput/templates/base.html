@@ -1,0 +1,47 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CancerCare Insight</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- You can add more CSS or JS files as needed -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="{% url 'data_input' %}">Data Input</a></li>
+                    <li><a href="#">Get Report</a></li>
+                    <li><a href="#">Community Forum</a></li>
+                    <!-- Add more navigation links as needed -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container">
+        {% block content %}
+        <!-- Content from other templates will be inserted here -->
+        {% endblock %}
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 CancerCare Insight. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to your JavaScript file -->
+    <script src="{% static 'js/script.js' %}"></script>
+    <!-- You can add more JS files as needed -->
+</body>
+</html>
