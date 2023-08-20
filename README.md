@@ -1,6 +1,7 @@
 # My Project - CancerCare Insight
 ## Introduction
-CancerCare-Insight is a comprehensive platform designed to assist healthcare professionals and patients in the journey of cancer diagnosis, treatment, and prognosis. By leveraging advanced machine learning models and data analysis techniques, the platform provides insightful reports to guide decision-making and improve patient outcomes.
+Cancer, a complex and multifarious disease, presents patients with a myriad of treatment options, each with its own set of benefits, risks, and costs. In the current healthcare landscape, patients and their families often find themselves navigating a convoluted maze of information, trying to discern the most effective and economically viable treatment pathways. The lack of a centralized repository that consolidates treatment details, outcomes, and financial implications exacerbates the challenge. This information void not only hampers patients' ability to make well-informed decisions but also impedes healthcare professionals from gaining a holistic understanding of treatment efficacies and cost structures. Furthermore, the absence of a platform that captures real-world patient experiences and outcomes means that valuable insights, which could inform and refine treatment protocols, remain untapped. CancerCareInsight seeks to address this pressing need by providing a unified platform that amalgamates and analyses cancer care data, offering clarity in an otherwise intricate domain 
+
 Click here to read my [Research Paper](https://www.researchgate.net/publication/373236588_CancerCare_Insight_A_Comprehensive_Analysis_Tool_for_Treatment_Outcomes_and_Cost_Effectiveness) for this Project
 
 ## Table of Contents
@@ -14,13 +15,11 @@ Click here to read my [Research Paper](https://www.researchgate.net/publication/
 - [Acknowledgements](#acknowledgements)
 
 ## Aim of the Project
-The primary aim of CancerCare Insight is to:
-- Provide a user-friendly interface for patients to input their medical data.
-- Process and analyze the data using state-of-the-art machine learning models.
-- Generate comprehensive reports that offer insights into diagnosis, treatment options, and prognosis.
-- Serve as a valuable tool for healthcare professionals to make informed decisions.
+CancerCare Insight aims to establish a comprehensive, user-friendly digital platform that centralizes, and aggregates data related to cancer treatments, their outcomes, and associated costs. By leveraging real-world patient experiences and data-driven analytics, the platform seeks to provide in-depth insights into the multifaceted world of cancer care. The overarching goal is to empower patients, caregivers, and healthcare professionals with actionable knowledge, facilitating informed decision-making processes. By bridging the information gap in the oncology domain, CancerCare Insight aspires to enhance the quality of care, optimize treatment strategies, and promote cost-effective healthcare solutions. 
 
 ## Benefits
+- By centralizing and democratizing access to real-world patient experiences and outcomes, "CancerCare Insight" can reduce the information asymmetry that often exists in healthcare.
+- The platform can serve as a valuable resource for researchers, policymakers, and pharmaceutical companies, offering a wealth of data on real-world treatment outcomes and patient experiences. 
 - **Informed Decision Making**: With the insights provided, healthcare professionals can make better-informed decisions about treatment plans.
 - **Personalized Care**: Tailored reports mean each patient gets care that's specific to their needs and conditions.
 - **Data-Driven Insights**: Leveraging the power of data, the platform provides evidence-based recommendations.
