@@ -2,7 +2,7 @@
 ## Introduction
 Cancer, a complex and multifarious disease, presents patients with a myriad of treatment options, each with its own set of benefits, risks, and costs. In the current healthcare landscape, patients and their families often find themselves navigating a convoluted maze of information, trying to discern the most effective and economically viable treatment pathways. The lack of a centralized repository that consolidates treatment details, outcomes, and financial implications exacerbates the challenge. This information void not only hampers patients' ability to make well-informed decisions but also impedes healthcare professionals from gaining a holistic understanding of treatment efficacies and cost structures. Furthermore, the absence of a platform that captures real-world patient experiences and outcomes means that valuable insights, which could inform and refine treatment protocols, remain untapped. CancerCareInsight seeks to address this pressing need by providing a unified platform that amalgamates and analyses cancer care data, offering clarity in an otherwise intricate domain 
 
-Click here to read my [Research Paper](https://www.researchgate.net/publication/373236588_CancerCare_Insight_A_Comprehensive_Analysis_Tool_for_Treatment_Outcomes_and_Cost_Effectiveness) for this Project
+Click here to read my [Research Proposal](https://www.researchgate.net/publication/373236588_CancerCare_Insight_A_Comprehensive_Analysis_Tool_for_Treatment_Outcomes_and_Cost_Effectiveness) for this Project
 
 ## Table of Contents
 - [Aim of the Project](#aim-of-the-project)
