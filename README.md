@@ -51,8 +51,9 @@ python manage.py runserver
 2. Follow the on-screen instructions to input data and generate reports.
 
 ## Screenshots
-Home[image](https://github.com/gibrankhantareen/01-CancerCare-Insight-Project/assets/90929264/232ea0d6-1cc4-415d-946b-fc7d644839ed)
-DataInput Form[image](https://github.com/gibrankhantareen/01-CancerCare-Insight-Project/assets/90929264/a374be75-f85f-43cd-835d-a9683d40e831)
+Home![image](https://github.com/gibrankhantareen/01-CancerCare-Insight-Project/assets/90929264/232ea0d6-1cc4-415d-946b-fc7d644839ed)
+
+Data Input Form![image](https://github.com/gibrankhantareen/01-CancerCare-Insight-Project/assets/90929264/a374be75-f85f-43cd-835d-a9683d40e831)
 
 
 ## Contributing
