@@ -46,10 +46,14 @@ python manage.py migrate
 4. Start the development server:
 python manage.py runserver
 
-
 ## Usage
 1. Open a web browser and navigate to `http://localhost:8000/`.
 2. Follow the on-screen instructions to input data and generate reports.
+
+## Screenshots
+Home[image](https://github.com/gibrankhantareen/01-CancerCare-Insight-Project/assets/90929264/232ea0d6-1cc4-415d-946b-fc7d644839ed)
+DataInput Form[image](https://github.com/gibrankhantareen/01-CancerCare-Insight-Project/assets/90929264/a374be75-f85f-43cd-835d-a9683d40e831)
+
 
 ## Contributing
 Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
