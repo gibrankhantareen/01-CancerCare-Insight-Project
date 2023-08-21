@@ -24,11 +24,8 @@ def data_input(request):
             patient_data_form.save()
             return render(request, 'data_input.html', context)
 
-
-
     else:
         patient_data_form = PatientDataForm()
-
 
     context = {
         'patient_data_form': patient_data_form,
